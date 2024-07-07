@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Pair Programming](link_to_your_screenshot_or_logo)
+
+## Overview
+
+Welcome to the Pair Programming Web App! This application provides a seamless environment for collaborative coding with features such as screen sharing, video calls, participant management, and real-time chat.
+
+## Features
+
+- **Screen Sharing:** Share your screen with participants to collaborate effectively.
+- **Video Call:** Integrated video calling to facilitate face-to-face communication.
+- **Participant Management:** Add, remove, and manage participants in the room.
+- **Pin Participants:** Pin specific participants to focus on their screen.
+- **Tag-Based Browsing:** Browse and search through the content using tags.
+- **Create Room:** Easily create and manage collaboration rooms.
+
+## Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Component Library:** [Shadcn](https://shadcn.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Authentication:** [NextAuth.js](https://next-auth.js.org/)
+- **Chat Integration:** [Stream Chat](https://getstream.io/chat/)
+- **Additional Services:** [GetStream.io](https://getstream.io/)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the repository:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   git clone https://github.com/yourusername/pair-programming-web-app.git
+   cd pair-programming-web-app
 
-## Learn More
+2. **Install Dependency:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm install
+   yarn install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Configure environment variables:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+:**
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+    DATABASE_URL=""
+    GOOGLE_CLIENT_ID=""
+    GOOGLE_CLIENT_SECRET=""
+    NEXTAUTH_SECRET=""
+    NEXT_PUBLIC_GET_STREAM_API_KEY=""
+    GET_STREAM_SECRET_KEY=""
+    NEXTAUTH_URL=
