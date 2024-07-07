@@ -1,10 +1,6 @@
-import { db } from "@/db"
+import NextAuth from "next-auth";
 import { authConfig } from "@/lib/auth";
-import { DrizzleAdapter } from "@auth/drizzle-adapter"
-import NextAuth from "next-auth"
-import { Adapter } from "next-auth/adapters"
-import GoogleProvider from 'next-auth/providers/google';
 
-const handler = NextAuth(authConfig)
+const handler = NextAuth(authConfig);
 
-export { handler as GET, handler as POST }
+export { handler as GET, handler as POST };
