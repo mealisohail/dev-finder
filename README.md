@@ -1,4 +1,4 @@
-![Pair Programming](link_to_your_screenshot_or_logo)
+# PAIR PROGRAMMING APP - DEV FINDER
 
 ## Overview
 
@@ -35,8 +35,7 @@ Welcome to the Pair Programming Web App! This application provides a seamless en
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/pair-programming-web-app.git
-   cd pair-programming-web-app
+   git clone https://github.com/alisohail2448/dev-finder
 
 2. **Install Dependency:**
 
