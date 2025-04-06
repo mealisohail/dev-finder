@@ -23,6 +23,10 @@ Welcome to the Pair Programming Web App! This application provides a seamless en
 - **Chat Integration:** [Stream Chat](https://getstream.io/chat/)
 - **Additional Services:** [GetStream.io](https://getstream.io/)
 
+![Dev Finder](public/image.png)
+
+
+
 ## Getting Started
 
 ### Prerequisites
