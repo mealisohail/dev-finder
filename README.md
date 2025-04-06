@@ -43,7 +43,7 @@ Welcome to the Pair Programming Web App! This application provides a seamless en
    npm install
    yarn install
 
-2. **Configure environment variables:
+3. **Configure environment variables:
 
 :**
 
@@ -54,4 +54,14 @@ Welcome to the Pair Programming Web App! This application provides a seamless en
     NEXTAUTH_SECRET=""
     NEXT_PUBLIC_GET_STREAM_API_KEY=""
     GET_STREAM_SECRET_KEY=""
-    NEXTAUTH_URL=
+    NEXTAUTH_URL=```
+
+4. **Run Docker:**
+
+docker compose up
+
+5. **Drizzle Db Read:**
+
+npm run db:push
+
+npm run dev
