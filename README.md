@@ -43,25 +43,27 @@ Welcome to the Pair Programming Web App! This application provides a seamless en
    npm install
    yarn install
 
-3. **Configure environment variables:
-
-:**
+3. **Configure environment variables:**
 
    ```bash
-    DATABASE_URL=""
-    GOOGLE_CLIENT_ID=""
-    GOOGLE_CLIENT_SECRET=""
-    NEXTAUTH_SECRET=""
-    NEXT_PUBLIC_GET_STREAM_API_KEY=""
-    GET_STREAM_SECRET_KEY=""
-    NEXTAUTH_URL=```
+   export DATABASE_URL=""
+   export GOOGLE_CLIENT_ID=""
+   export GOOGLE_CLIENT_SECRET=""
+   export NEXTAUTH_SECRET=""
+   export NEXT_PUBLIC_GET_STREAM_API_KEY=""
+   export GET_STREAM_SECRET_KEY=""
+   export NEXTAUTH_URL=""
+   ```
 
 4. **Run Docker:**
 
-docker compose up
+   ```bash
+   docker compose up
+   ```
 
 5. **Drizzle Db Read:**
 
-npm run db:push
-
-npm run dev
+   ```bash
+   npm run db:push
+   npm run dev
+   ```
